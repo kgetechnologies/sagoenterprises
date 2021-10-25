@@ -454,6 +454,10 @@ select:visited {
 	background-color: #1a0b60;
 	padding: 10px 0;
 }
+.pr3-footer-section .pr3-info-bar-container {
+	background-color: #1a0b60;
+	padding: 10px 0;
+}
 
 @media (max-width: 767.98px) {
 	.pr3-header-section .pr3-info-bar-container {
@@ -489,6 +493,90 @@ select:visited {
 }
 
 .pr3-header-section .pr3-info-bar-container .pr3-info-bar-right a+a::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 1px;
+	height: 20px;
+	background-color: #497efd;
+	z-index: 2;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-left p {
+	color: #ffffff;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right {
+	text-align: right;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a:hover {
+	color: #497efd;
+	.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-left p {
+	color: #ffffff;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right {
+	text-align: right;
+}
+
+.pr3-footer-section .pr3-info-bar-container  a {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	
+}
+
+.pr3-footer-section .pr3-info-bar-container a:hover {
+	color: #497efd;
+	text-decoration:underline !important;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a+a {
+	margin-left: 30px;
+	position: relative;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a+a::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 1px;
+	height: 20px;
+	background-color: #497efd;
+	z-index: 2;
+}
+
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a+a {
+	margin-left: 30px;
+	position: relative;
+}
+
+.pr3-footer-section .pr3-info-bar-container .pr3-info-bar-right a+a::before {
 	content: '';
 	position: absolute;
 	top: 50%;
