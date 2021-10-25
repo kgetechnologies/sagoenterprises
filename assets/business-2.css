@@ -1368,7 +1368,7 @@ select:visited {
 	left: 0;
 	width: 100%;
 	height: calc(100% + 80px);
-	background-image: url(../img/business-2/footer-bg.png);
+	background-image: url(../assets/footer-bg.png);
 	z-index: -1;
 	background-repeat: no-repeat;
 	background-size: cover;
